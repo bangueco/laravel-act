@@ -20,11 +20,11 @@
 <body>
     <header>
         <ul class="nav">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Animation</a></li>
-            <li><a href="#">Tasks</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="{{route('home')}}">Home</a></li>
+            <li><a href="{{route('animation')}}">Animation</a></li>
+            <li><a href="{{route('tasks')}}">Tasks</a></li>
+            <li><a href="{{route('profile')}}">Profile</a></li>
+            <li><a href="{{route('contact')}}">Contact Us</a></li>
         </ul>
     </header>
     <h1>@yield('heading-title')</h1>
