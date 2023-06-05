@@ -24,3 +24,7 @@ Route::get('/animation', function () {
 Route::get('/tasks', function () {
     return view('tasks');
 });
+
+Route::get('/profile', function () {
+    return view('profile');
+});
