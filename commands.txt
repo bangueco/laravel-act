@@ -10,3 +10,7 @@ php artisan migrate
 php artisan migrate:fresh --seed # create data from seed
 php artisan migrate:fresh # update some tables when existing table is already there
 php artisan make:migration create_tablename_table
+
+# PHP MODEL
+php artisan make:model Profile
+php artisan make:model Profile -m # this will create model and table
