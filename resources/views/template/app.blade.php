@@ -25,6 +25,7 @@
             <li><a href="{{route('tasks')}}">Tasks</a></li>
             <li><a href="{{route('profile')}}">Profile</a></li>
             <li><a href="{{route('contact')}}">Contact Us</a></li>
+            <li><a href="{{route('login')}}">Login</a></li>
         </ul>
     </header>
     <h1>@yield('heading-title')</h1>

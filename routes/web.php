@@ -5,6 +5,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TasksController;
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,3 +28,7 @@ Route::get('/tasks',[TasksController::class,'returnPage'])->name('tasks');
 Route::get('/profile',[ProfileController::class,'returnPage'])->name('profile');
 
 Route::get('/contact',[ContactController::class,'returnPage'])->name('contact');
+
+Route::get('/login',[AuthController::class,'returnPage'])->name('login');
+
+Route::post('/login',[AuthController::class,'login'])->name('login.submit');
