@@ -1,7 +1,9 @@
-composer install
-php artisan key:generate
+php artisan serve # start php server
 
-php artisan make:controller ControllerName
+composer install
+php artisan key:generate # if php artisan serve do not work do this
+
+php artisan make:controller ControllerName # to make controller
 
 php artisan migrate
 php artisan make:migration create_tablename_table
